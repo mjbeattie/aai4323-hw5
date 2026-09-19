@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Creating or updating the AAI4323 Conda environment..."
+echo "Creating or updating the AAI4323_HW5 Conda environment..."
 
 conda env update \
     --name aai4323_hw5 \
