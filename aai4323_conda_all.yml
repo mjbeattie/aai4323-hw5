@@ -5,19 +5,10 @@ channels:
 
 dependencies:
   - python=3.12
-  - pip
 
   # Required pinned versions
   - numpy=1.26.4
   - pandas=2.1.4
-
-  # Scientific stack
-  - scipy
-  - scikit-learn
-  - statsmodels
-  - numba
-  - numexpr
-  - bottleneck
 
   # Jupyter ecosystem
   - jupyterlab
@@ -31,12 +22,6 @@ dependencies:
 
   # Visualization
   - matplotlib
-  - seaborn
-  - graphviz
-  - python-graphviz
-
-  # PyTorch CPU-only (macOS uses MPS automatically)
-  - pytorch
 
   # Utilities
   - tqdm
@@ -46,12 +31,3 @@ dependencies:
   - pyyaml
   - joblib
   - cloudpickle
-
-  # Pip-only packages
-  - pip:
-      - shap
-      - imbalanced-learn
-      - ucimlrepo
-      - geopy
-      - python-dotenv
-      - networkx
