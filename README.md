@@ -1,23 +1,13 @@
-# AAI4323 HW4
+# AAI4323 HW5
 ## University of Oklahoma
 
 This repository contains the files required to complete the coding part of
-assignment four in AAI4323/5323 and DSAI4323/5323. Once you've created
+assignment five in AAI4323/5323 and DSAI4323/5323. Once you've created
 your own repository from the template, you can launch a codespace to complete
 the assignment.
 
-In (3a), you were given the probability that each customer lived in a given
-zipcode. Suppose that you don’t know these probabilities but instead must
-derive them from other data. One way to do that would be with location data.
-You work for a telecommunications company, and you have a file containing
-customers and the location of the origination of their phone calls. You
-assume that the probability of their home location is equal to the fraction of
-calls originating from that location. You know the probability of COVID by age
-and zipcode from (3a). You also know the customers’ ages from doing credit
-checks. Write a python program to calculate the probability that each
-customer has had COVID. The phone call data is given to you in the file
-customer_phone_calls.tsv. You will fill in the missing code in the code
-skeleton aai4323_hw4_lastname.py. When you submit your assignment,
-make sure to change the name of your file by replacing “lastname” with your 
-actual lastname. Download your completed script and submit it to Canvas
-along with the rest of your homework as described in the assignment.
+Your system uses a function called calculate_quarterly_revenue() to send the revenue from outstanding contracts to the accounting system. It is currently just accepting the revenue. You need to modify the code to adhere to ASC 606.
+
++ You should have created a conda environment called aai4323 from your last homework assignment. If you didn’t, use the YAML file, aai4323_conda_all.yml to create the conda environment on your machine. If you are using a codespace from the template repository, you don't need to do this.
++ The sample contract data is included in givens_hw5.py. Make sure this file is in the same directory as the script aai4323_hw5.py.
++ Make the changes in the aai4323_hw5.py file. The changes are located where you see TODO comments. Save your revised code as aai4323_hw5_<your OU ID>.py. Upload your code into Canvas as your submission. Your submission will be autograded using a test script.

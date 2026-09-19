@@ -1,4 +1,4 @@
-name: aai4323
+name: aai4323_hw5
 channels:
   - conda-forge
   - defaults
